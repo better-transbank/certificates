@@ -2,9 +2,8 @@ name: Tests and Style
 
 on:
   push:
-    branches:
-      - '*'
-      - !master
+    #branches-ignore:
+    #  - master
 
 jobs:
   test:
